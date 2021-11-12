@@ -3,6 +3,7 @@
 --secondary-color: #010008;
 }
 
+1div {border: solid 1px;}
 body{
 	background-color: #f0f0f0;
 	font-family: Verdana, fantasy;
@@ -29,9 +30,12 @@ a {
   color: var(--primary-color);
 }
 
+.introinfo {
+  float: right;
+  margin-right: 60%;
+}
 .foto {
-	width: 105px;
-	float: left;
+	width: 200px;
 }
 .contacts {
   margin-bottom: 2em;
@@ -48,13 +52,31 @@ a {
 .experience {
   display: flex;
   margin-bottom: 2em;
+  border-bottom: solid 1px;
 }  
+
+.experience:hover {
+  background-color: lightgray;
+}
+
 .experience__date {
     min-width: 185px;
     margin-bottom: 1em;
   }
 .experience__name {
     font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media (max-width: 575px) {
