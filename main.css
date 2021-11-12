@@ -31,9 +31,7 @@ a {
 
 .foto {
 	width: 105px;
-	position: absolute;
-    right: 650px;
-	top: 1em;
+	float: left;
 }
 .contacts {
   margin-bottom: 2em;
@@ -49,14 +47,14 @@ a {
 
 .experience {
   display: flex;
-  margin-bottom: 2em;  
-  &__date {
+  margin-bottom: 2em;
+}  
+.experience__date {
     min-width: 185px;
     margin-bottom: 1em;
   }
-  &__name {
+.experience__name {
     font-weight: bold;
-  }
 }
 
 @media (max-width: 575px) {
