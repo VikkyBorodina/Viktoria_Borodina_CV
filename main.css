@@ -3,7 +3,6 @@
 --secondary-color: #010008;
 }
 
-1div {border: solid 1px;}
 body{
 	background-color: #f0f0f0;
 	font-family: Verdana, fantasy;
@@ -43,10 +42,6 @@ a {
 
 .contact {
   display: flex;
-  
-  &__type {
-    min-width: 90px;
-  }
 }
 
 .experience {
@@ -72,7 +67,6 @@ a {
   width: 33.33%;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
