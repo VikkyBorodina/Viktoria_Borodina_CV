@@ -44,6 +44,10 @@ a {
   display: flex;
 }
 
+.contact__type {
+  min-width: 90px;
+}
+
 .experience {
   display: flex;
   margin-bottom: 2em;
